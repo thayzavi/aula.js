@@ -5,6 +5,8 @@
 
 //  Ve = 4. p. r³/3
 //  Ae = 4 . p . r²
+const prompt = require('prompt-sync')();
+
 let areaEsf = function (raio) {
     let area = 4 * Math.PI * raio ** 2;
     return area;
